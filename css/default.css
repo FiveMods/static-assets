@@ -943,6 +943,10 @@ footer {
     background: var(--clr-coolgray-200);
 }
 
+.footer-lang-menu-item::first-letter {
+    text-transform: uppercase;
+}
+
 /* Alerts */
 
 .alert {
