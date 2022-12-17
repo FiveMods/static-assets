@@ -928,8 +928,6 @@ footer {
 }
 
 .footer-lang-menu-item {
-    color: var(--clr-black);
-    text-decoration: none;
     padding: .3rem .5rem;
     margin: .1rem 0;
     border-radius: 3px;
@@ -943,7 +941,13 @@ footer {
     background: var(--clr-coolgray-200);
 }
 
-.footer-lang-menu-item::first-letter {
+.footer-lang-menu-item-text {
+    color: var(--clr-black);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-lang-menu-item-text::first-letter {
     text-transform: uppercase;
 }
 
