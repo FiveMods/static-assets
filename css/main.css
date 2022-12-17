@@ -1192,13 +1192,14 @@ body {
     word-break: break-all;
 }
 
-.mod-index-share-popup-card-url button {
+.mod-index-share-popup-card-url-copy {
     font-weight: 600;
     color: var(--clr-link);
     margin-left: .25rem;
+    text-transform: uppercase;
 }
 
-.mod-index-share-popup-card-url button:hover {
+.mod-index-share-popup-card-url-copy:hover {
     text-decoration: underline;
 }
 
