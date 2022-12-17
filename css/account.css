@@ -177,7 +177,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 2rem;
 }
 
@@ -333,12 +333,24 @@
     width: 70%;
 }
 
+.account-content-main-input-text-85 {
+    width: 85%;
+}
+
+.account-content-main-input-text-100 {
+    width: 100%;
+}
+
 .account-content-main-input-textarea {
     resize: vertical;
 }
 
 .account-content-main-input-text:focus {
     border-color: var(--clr-info);
+}
+
+.account-content-main-input-wrapper {
+    width: 70%;
 }
 
 .account-content-el-container {
@@ -1089,6 +1101,9 @@
     .account-content-main-group {
         flex-direction: column;
         align-items: flex-start;
+    }
+    .account-content-main-input-wrapper {
+        width: 100%;
     }
     .account-content-main-checkbox-info {
         margin-top: .5rem;
