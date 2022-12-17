@@ -317,96 +317,9 @@ main {
     width: 100%;
 }
 
-.upload-input-text:focus {
-    border-color: var(--clr-info);
-}
 
 .upload-input-textarea {
     resize: vertical;
-}
-
-.upload-input-text.error {
-    border-color: var(--clr-danger);
-}
-
-.upload-input-select.error {
-    border-color: var(--clr-danger);
-}
-
-.upload-input-text.success {
-    border-color: var(--clr-success);
-}
-
-.upload-input-select.success {
-    border-color: var(--clr-success);
-}
-
-.upload-input-text.error ~ .upload-input-validation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: 500;
-    font-size: .8rem;
-    margin: .3rem 0;
-    color: var(--clr-danger);
-}
-
-.upload-input-text.success ~ .upload-input-validation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: 500;
-    font-size: .8rem;
-    margin: .3rem 0;
-    color: var(--clr-success);
-}
-
-.upload-input-select.error ~ .upload-input-validation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: 500;
-    font-size: .8rem;
-    margin: .3rem 0;
-    color: var(--clr-danger);
-}
-
-.upload-input-select.success ~ .upload-input-validation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: 500;
-    font-size: .8rem;
-    margin: .3rem 0;
-    color: var(--clr-success);
-}
-
-.upload-input-text.success ~ .upload-input-validation .upload-input-validation-img-error {
-    display: none;
-}
-
-.upload-input-text.error ~ .upload-input-validation .upload-input-validation-img-success {
-    display: none;
-}
-
-.upload-input-select.success ~ .upload-input-validation .upload-input-validation-img-error {
-    display: none;
-}
-
-.upload-input-select.error ~ .upload-input-validation .upload-input-validation-img-success {
-    display: none;
-}
-
-.upload-input-validation {
-    display: none;
-}
-
-.upload-input-validation-msg {
-    padding: 0 .3rem;
-}
-
-.upload-input-validation img {
-    height: .75rem;
 }
 
 .upload-input-select {
@@ -419,10 +332,6 @@ main {
     outline: none;
     width: 100%;
     appearance: none;
-}
-
-.upload-input-select:focus {
-    border-color: var(--clr-info);
 }
 
 .upload-input-select-wrapper {
