@@ -429,6 +429,7 @@ main {
 
 .upload-author-name span {
     color: #AFAFAF;
+    text-transform: lowercase;
 }
 
 .upload-author-remove {
