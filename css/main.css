@@ -1443,6 +1443,74 @@ body {
     margin-bottom: 2rem;
 }
 
+.mod-rating-cta {
+    display: block;
+    color: white;
+    background: var(--clr-info);
+    font-weight: 500;
+    padding: .5rem 1.4rem;
+    border-radius: .4rem;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.mod-rating-cta:hover {
+    color: white;
+    background: #3276d4;
+}
+
+.mod-description h1,
+.mod-description h2,
+.mod-description h3,
+.mod-description h4,
+.mod-description h5,
+.mod-description h6 {
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .75rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.mod-description h1 {
+    font-size: 1.75rem;
+}
+.mod-description h2 {
+    font-size: 1.5rem;
+}
+
+.mod-description h3 {
+    font-size: 1.3rem;
+}
+
+.mod-description h4 {
+    font-size: 1.2rem;
+}
+
+.mod-description h5 {
+    font-size: 1.1rem;
+}
+
+.mod-description h6 {
+    font-size: 1rem;
+}
+
+.mod-description ol,
+.mod-description ul {
+    padding-left: 2rem;
+}
+
+.mod-description ul li,
+.mod-description ol li {
+    margin-bottom: .1rem;
+}
+
+.mod-description ul li::marker {
+    font-size: .85rem;
+}
+
+
 /* User */
 
 .user-bg {
