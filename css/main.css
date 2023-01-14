@@ -141,6 +141,22 @@ body {
     margin-bottom: 1rem;
 }
 
+.product-pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.product-pagination-btn {
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.product-pagination-btn-img {
+    height: 2.75rem;
+    width: 2.75rem;
+}
 
 /* Special products container for user page */
 
