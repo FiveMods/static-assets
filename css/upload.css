@@ -137,6 +137,14 @@ main {
     background: var(--clr-danger) !important;
 }
 
+.upload-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
 .upload-main-card {
     width: 100%;
     display: flex;
