@@ -217,6 +217,23 @@ header a, header button {
     z-index: inherit;
 }
 
+
+.header-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: .3rem;
+    font-size: .8rem;
+    font-weight: 500;
+    background: var(--clr-dark);
+}
+
+.header-banner:hover {
+    text-decoration: underline;
+}
+
 /* Categories menu */
 
 .categories-dropdown-menu {
